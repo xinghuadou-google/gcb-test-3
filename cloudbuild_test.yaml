@@ -1,4 +1,5 @@
 steps:
   - name: 'python'
+    id: 'step 1'
     args: ['python', '-m', 'unittest', 'main_test']
 tags: ['tag1', 'tag2']
