@@ -1,4 +1,6 @@
 steps:
+  - name: 'bash'
+    args: ['echo', 'first step']
   - name: 'python'
     id: 'step 1'
     args: ['python', '-m', 'unittest', 'main_test']
