@@ -17,3 +17,4 @@ steps:
     args: ['sleep', '128']
   - name: 'bash'
     args: ['sleep', '256']
+logsBucket: 'gs://xinghuadou-test3-gcb-logs'
