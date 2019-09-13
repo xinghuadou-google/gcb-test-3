@@ -19,4 +19,5 @@ steps:
   - name: 'bash'
     args: ['sleep', '256']
 logsBucket: 'gs://xinghuadou-test3-gcb-logs'
-env: ['A=F', 'C=D']
+options:
+    env: ['A=F', 'C=D']
