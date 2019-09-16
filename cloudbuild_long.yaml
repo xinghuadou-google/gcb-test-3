@@ -18,6 +18,6 @@ steps:
     args: ['sleep', '128']
   - name: 'bash'
     args: ['sleep', '256']
-logsBucket: 'gs://xinghuadou-test3-gcb-logs'
+logsBucket: 'gs://xinghuadou-test3-gcb-logs/nested/path'
 options:
     env: ['A=F', 'C=D']
